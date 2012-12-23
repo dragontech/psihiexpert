@@ -1,0 +1,13 @@
+ROSU :
+
+CMYK : 20-100-97-0
+rgb : 176-42-39
+pantone : pantone 180 C
+hexa : B02A27
+
+ALBASTRU : 
+
+CMYK : 100-100-0-0
+rgb : 40-22-111
+pantone : pantone 273 C
+hexa : 28166F
