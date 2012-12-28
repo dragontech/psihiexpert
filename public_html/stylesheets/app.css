@@ -1,29 +1,95 @@
-/* Artfully masterminded by ZURB  */
-
-/* -------------------------------------------------- 
-   Table of Contents
------------------------------------------------------
-:: Shared Styles
-:: Page Name 1
-:: Page Name 2
-*/
-
-
 /* -----------------------------------------
    Shared Styles
 ----------------------------------------- */
+body {
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
 
+/*
+ROSU: #B02A27
+ALBASTRU: #28166F
+*/
 
+h4 {
+  color: #B02A27;
+}
 
 /* -----------------------------------------
-   Page Name 1
+   Menu theme
 ----------------------------------------- */
+ul.nav-bar {
+  background: none;
+  margin-bottom: 0px;
+  height: auto;
+}
 
+ul.nav-bar li {
+  margin-right: 5px;
+  border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 0 0;
+  border: none;
+  background-color: #8DCFF7;
+}
 
+ul.nav-bar li.active, ul.nav-bar li.active:hover {
+  background-color: #5BB4EB;
+}
 
+ul.nav-bar > li:last-child {
+  border: none;
+}
+
+ul.nav-bar li:hover {
+  background-color: #5BB4EB;
+}
+
+ul.nav-bar li a {
+  color: white;
+}
 
 /* -----------------------------------------
    Page Name 2
 ----------------------------------------- */
+footer, .row-content {
+  background-color: white;
+}
+
+.row-content {
+  margin-top: -2px;
+  padding-top: 10px;
+}
+
+div#content {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  background-color: #5BB4EB;
+  
+  background-image: linear-gradient(bottom, rgb(91,180,235) 100%, rgb(255,255,255) 30%);
+  background-image: -o-linear-gradient(bottom, rgb(91,180,235) 100%, rgb(255,255,255) 30%);
+  background-image: -moz-linear-gradient(bottom, rgb(91,180,235) 100%, rgb(255,255,255) 30%);
+  background-image: -webkit-linear-gradient(bottom, rgb(91,180,235) 100%, rgb(255,255,255) 30%);
+  background-image: -ms-linear-gradient(bottom, rgb(91,180,235) 100%, rgb(255,255,255) 30%);
+
+  background-image: -webkit-gradient(
+	  linear,
+	  left bottom,
+	  left top,
+	  color-stop(1, rgb(91,180,235)),
+	  color-stop(0.3, rgb(255,255,255))
+  );
+}
+
+p#headline {
+  position: absolute;
+  top: 0px;
+  background-color: red;
+  color: blue;
+}
+
+ul.list-inside {
+  list-style-position: inside;
+}
 
 
